@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Person person = new Person("John", 25);
+        Person person = new Person("An", 20);
         Car car = new Car("Toyota", "Camry", 2020);
 
         System.out.println("Person: " + person.getName() + ", Age: " + person.getAge());
