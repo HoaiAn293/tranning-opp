@@ -3,8 +3,8 @@ public class Main {
         Person person = new Person("An", 20);
         Car car = new Car("Toyota", "Camry", 2020);
 
-        System.out.println("Person: " + person.getName() + ", Age: " + person.getAge());
-        System.out.println("Car: " + car.getMake() + ", Model: " + car.getModel() + ", Year: " + car.getYear());
+        System.out.println(person.getName() + " is " + person.getAge() + " years old.");
+        System.out.println("The car is a " + car.getMake() + " " + car.getModel() + " made in " + car.getYear() + ".");
     }
 }
 
